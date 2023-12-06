@@ -10,8 +10,8 @@ public class Tracker : MonoBehaviour
     void LateUpdate()
     {
         transform.position = new Vector3(
-			Mathf.Clamp(trackedObject.position.x, -4f, 4f),
-			Mathf.Clamp(trackedObject.position.y, -1.5f, 1.5f),
+			Mathf.Clamp(trackedObject.position.x, -5.5f, 5.5f),
+			Mathf.Clamp(trackedObject.position.y, -4f, 4f),
 			transform.position.z);
     }
 }
