@@ -11,9 +11,9 @@ public class PlayerPosition : MonoBehaviour, IDataPersistence
     {
         float x = PlayerPrefs.GetFloat("PPX");
         float y = PlayerPrefs.GetFloat("PPY");
-        float z = PlayerPrefs.GetFloat("PPZ");
-
-        Player.position = new Vector3(x, y, z);
+        //float z = PlayerPrefs.GetFloat("PPZ");
+        //removed z for a moment, seeing if this changes anything
+        Player.position = new Vector3(x, y);
     }
 
     public void LoadData(GameData data)
@@ -31,6 +31,6 @@ public class PlayerPosition : MonoBehaviour, IDataPersistence
     {
         PlayerPrefs.SetFloat("PPX", Player.position.x);
         PlayerPrefs.SetFloat("PPY", Player.position.y);
-        PlayerPrefs.SetFloat("PPZ", Player.position.z);
+        //PlayerPrefs.SetFloat("PPZ", Player.position.z);
     }
 }
