@@ -12,10 +12,8 @@ public class WalkingSound : MonoBehaviour
 
     private void Update()
     {
-        // Assuming movement is controlled through some input or script
-        // For example purposes, let's assume it's controlled by the horizontal and vertical axis
-        float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
 
         if (Mathf.Abs(horizontalInput) > 0.01f || Mathf.Abs(verticalInput) > 0.01f)
         {
