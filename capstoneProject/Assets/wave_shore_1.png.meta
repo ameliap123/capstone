@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pause-button-png-29666_0: 8451318179456462869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
