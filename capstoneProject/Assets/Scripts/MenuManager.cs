@@ -1,11 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public void QuitGame()
+
+    //scene int variable
+    public int gameStartScene;
+
+    public void StartGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene(gameStartScene);
     }
+
+
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
 }
