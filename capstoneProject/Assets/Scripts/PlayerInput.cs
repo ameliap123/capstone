@@ -38,17 +38,17 @@ public class PlayerInput : MonoBehaviour
     }
 
     //not done yet but i way to view objects
-    void PerformRaycastForInteraction()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 10f))
-        {
+    //void PerformRaycastForInteraction()
+    //{
+       // RaycastHit hit;
+       // if (Physics.Raycast(transform.position, transform.forward, out hit, 10f))
+       //{
             // Check if the hit object is interactable and perform the interaction
-            InteractableObject interactableObject = hit.collider.GetComponent<InteractableObject>();
-            if (interactableObject != null)
-            {
-                interactableObject.Interact(); // Perform interaction with the object
-            }
+            //InteractableObject interactableObject = hit.collider.GetComponent<InteractableObject>();
+            //if (interactableObject != null)
+            //{
+                //interactableObject.Interact(); // Perform interaction with the object
+            //}
         }
     }
 }
