@@ -1,35 +1,44 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager instance;
-    public List<Item> inventory = new List<Item>(); // List to store collected items
+    public int inventorySpace = 20; // Maximum inventory slots
+    public List<Item> items = new List<Item>(); // List to store items
 
-    private void Awake()
+    // Add an item to the inventory
+    public bool AddItem(Item itemToAdd)
     {
-        if (instance == null)
+        if (items.Count < inventorySpace)
         {
-            instance = this;
+            items.Add(itemToAdd);
+            Debug.Log(itemToAdd.itemName + " added to inventory.");
+            return true;
         }
         else
         {
-            Destroy(gameObject);
+            Debug.Log("Inventory is full. Cannot add " + itemToAdd.itemName);
+            return false;
         }
     }
 
-    // Add item to the inventory
-    public void AddItem(Item item)
+    // Remove an item from the inventory
+    public void RemoveItem(Item itemToRemove)
     {
-        inventory.Add(item);
-        // Futute, add further logic here, like UI updates, etc.
+        if (items.Contains(itemToRemove))
+        {
+            items.Remove(itemToRemove);
+            Debug.Log(itemToRemove.itemName + " removed from inventory.");
+        }
+        else
+        {
+            Debug.Log("Item " + itemToRemove.itemName + " not found in inventory.");
+        }
     }
 
-    // Remove item from the inventory
-    public void RemoveItem(Item item)
+    // Check if the inventory contains a specific item
+    public bool HasItem(Item itemToCheck)
     {
-        inventory.Remove(item);
-        // Future, add further logic here, like UI updates, etc.
+        return items.Contains(itemToCheck);
     }
 }

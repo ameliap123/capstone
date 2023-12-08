@@ -1,19 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+[CreateAssetMenu(fileName ="New Item", menuName = "Inventory/Item")]
+public class Item : ScriptableObject
 {
-    public string itemName; // Name of the item
-    public Sprite itemIcon; // Icon for the inventory
-    public int itemID; // Unique ID for the item
+    public string itemName = "New Item"; // Name of the item
+    public Sprite icon; // Icon for the inventory
+    public int quantity =1;
 
-    // Function to execute when the item is picked up
-    public void PickUp()
+    public virtual void Use()
     {
-        // Add the item to the inventory
-        InventoryManager.instance.AddItem(this);
-        // Hide the item in the scene
-        gameObject.SetActive(false);
+        Debug.Log("Using " + itemName); 
     }
 }
