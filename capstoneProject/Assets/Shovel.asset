@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcff8f0c34dde4428df271bb671c678, type: 3}
   m_Name: Shovel
   m_EditorClassIdentifier: 
-  itemName: Shovel
-  icon: {fileID: -6669954179771157240, guid: 79e00c15f71ba5845bc6c9f089ad7b87, type: 3}
+  itemName: New Item
+  icon: {fileID: 0}
   quantity: 1
