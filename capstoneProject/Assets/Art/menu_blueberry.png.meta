@@ -850,7 +850,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      menu_blueberry_0: -5386855148588905221
+      menu_blueberry_1: -3155850397683035212
+      menu_blueberry_10: -353141291839181624
+      menu_blueberry_11: 5535930155622335417
+      menu_blueberry_12: -6490158349095403197
+      menu_blueberry_13: 7508407026399914177
+      menu_blueberry_14: -8590714913636753315
+      menu_blueberry_15: 8734789154447913426
+      menu_blueberry_16: 5249184118091483213
+      menu_blueberry_17: -5021216564089024009
+      menu_blueberry_18: 1987162211523628800
+      menu_blueberry_19: 5800065552827272641
+      menu_blueberry_2: 2403249108642089094
+      menu_blueberry_20: -3099160328197665243
+      menu_blueberry_21: 4409772098949032569
+      menu_blueberry_22: -6968976051486751646
+      menu_blueberry_23: 3880389231844237320
+      menu_blueberry_24: -5955132951749859039
+      menu_blueberry_25: -310760881312512904
+      menu_blueberry_26: 3387423229942903046
+      menu_blueberry_27: 8770511694929548420
+      menu_blueberry_28: 6148207989797110950
+      menu_blueberry_29: 5979218491615204663
+      menu_blueberry_3: -4494306746495781564
+      menu_blueberry_30: -6769257595562850302
+      menu_blueberry_4: -1500211214436088930
+      menu_blueberry_5: 1145152590142351551
+      menu_blueberry_6: -582466230395096300
+      menu_blueberry_7: -1593394086469692912
+      menu_blueberry_8: 9190444459445722159
+      menu_blueberry_9: -8037595678767599503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
