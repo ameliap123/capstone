@@ -20,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
         ydir = Input.GetAxisRaw("Vertical") * speed;
 
         transform.position = new Vector2(
-            Mathf.Clamp(transform.position.x, -8f, 13f),
-            Mathf.Clamp(transform.position.y, -9f, 9f)
+            Mathf.Clamp(transform.position.x, -10.5f, 10.5f),
+            Mathf.Clamp(transform.position.y, -5f, 5f)
         );
     }
 
