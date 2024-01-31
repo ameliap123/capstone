@@ -25,6 +25,7 @@ public class DataPersistenceManager : MonoBehaviour
         instance = this;
     }
 
+    [System.Obsolete]
     private void Start()
     {
         this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName, useEncryption);
@@ -66,7 +67,7 @@ public class DataPersistenceManager : MonoBehaviour
         dataHandler.Save(gameData);
     }
 
-    private void OnAppQuit()
+    private void OnApplicationQuit()
     {
         SaveGame();
     }
