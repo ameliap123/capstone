@@ -22,15 +22,10 @@ public class MapManager : MonoBehaviour
             }
         }
     }
-    public void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3Int gridPosition = map.WorldToCell(mousePosition);
 
-            TileBase clickedTile = map.GetTile(gridPosition);
-            bool canDig = dataFromTiles[clickedTile].canDig;
-        }
+    public bool GetCanDig(TileBase clickedTile)
+    {
+        bool canDig = dataFromTiles[clickedTile].canDig;
+        return canDig;
     }
 }

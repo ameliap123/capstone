@@ -14,8 +14,18 @@ public class DigManager : MonoBehaviour
         map.SetTile(position, hole);
     }
 
-    public void Dig()
+    public void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0)){
+			Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3Int gridPosition = map.WorldToCell(mousePosition);
+
+            TileBase clickedTile = map.GetTile(gridPosition);
+			bool canDig = mapManager.GetCanDig(clickedTile);
+			if (canDig is true)
+			{
+				replaceTile(gridPosition);
+			}
+		}
     }
 }
