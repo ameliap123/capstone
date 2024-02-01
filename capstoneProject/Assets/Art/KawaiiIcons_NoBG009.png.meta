@@ -118,7 +118,7 @@ TextureImporter:
       name: KawaiiIcons_NoBG009_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 2
         y: 7
         width: 60
         height: 50
@@ -135,6 +135,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: KawaiiIcons_NoBG009_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283f7423f22ba240b949a6045e1c2e2
+      internalID: -840413772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -147,6 +168,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       KawaiiIcons_NoBG009_0: -4368571685495844691
+      KawaiiIcons_NoBG009_1: -840413772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
