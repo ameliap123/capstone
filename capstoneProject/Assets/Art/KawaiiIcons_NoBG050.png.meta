@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KawaiiIcons_NoBG050_0: -5440751736817502357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
