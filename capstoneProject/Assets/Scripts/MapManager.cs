@@ -18,11 +18,15 @@ public class MapManager : MonoBehaviour
         {
             foreach (var tile in tileData.tiles)
             {
-                dataFromTiles.Add(tile, tileData);
+				if(!dataFromTiles.ContainsKey(tile)){
+
+                	dataFromTiles.Add(tile, tileData);
+
+				}
             }
         }
-    }
-
+    
+	}
     public bool GetCanDig(TileBase clickedTile)
     {
         bool canDig = dataFromTiles[clickedTile].canDig;
