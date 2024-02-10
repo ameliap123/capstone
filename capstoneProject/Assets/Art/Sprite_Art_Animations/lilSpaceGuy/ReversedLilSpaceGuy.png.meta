@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: aa5207abb90884048bd562775a956fbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9175795995255948362
+    second: ReversedLilSpaceGuy_0
+  - first:
+      213: 4591994476035637019
+    second: ReversedLilSpaceGuy_1
+  - first:
+      213: -571252162501213423
+    second: ReversedLilSpaceGuy_2
+  - first:
+      213: 5593495772009975187
+    second: ReversedLilSpaceGuy_3
+  - first:
+      213: 1427550926296412306
+    second: ReversedLilSpaceGuy_4
+  - first:
+      213: -6711887479491349063
+    second: ReversedLilSpaceGuy_5
+  - first:
+      213: 9089174875831290017
+    second: ReversedLilSpaceGuy_6
+  - first:
+      213: 4269298050264148268
+    second: ReversedLilSpaceGuy_7
+  - first:
+      213: -1652467522304825455
+    second: ReversedLilSpaceGuy_8
+  - first:
+      213: -3067966110306447879
+    second: ReversedLilSpaceGuy_9
+  - first:
+      213: -6313481193995589847
+    second: ReversedLilSpaceGuy_10
+  - first:
+      213: -2403606404051480773
+    second: ReversedLilSpaceGuy_11
+  - first:
+      213: -5699323381670613795
+    second: ReversedLilSpaceGuy_12
+  - first:
+      213: 4400282910932639338
+    second: ReversedLilSpaceGuy_13
+  - first:
+      213: 5788035042957713144
+    second: ReversedLilSpaceGuy_14
+  - first:
+      213: 8616527394152793368
+    second: ReversedLilSpaceGuy_15
+  - first:
+      213: 1275840226618771146
+    second: ReversedLilSpaceGuy_16
+  - first:
+      213: -7243106673569236018
+    second: ReversedLilSpaceGuy_17
+  - first:
+      213: -3282309497859348634
+    second: ReversedLilSpaceGuy_18
+  - first:
+      213: -3065267558024032737
+    second: ReversedLilSpaceGuy_19
+  - first:
+      213: 8534976152235944962
+    second: ReversedLilSpaceGuy_20
+  - first:
+      213: 3105062435146356618
+    second: ReversedLilSpaceGuy_21
+  - first:
+      213: 2417630760448491603
+    second: ReversedLilSpaceGuy_22
+  - first:
+      213: -2523719968320903286
+    second: ReversedLilSpaceGuy_23
+  - first:
+      213: 6485253826453872011
+    second: ReversedLilSpaceGuy_24
+  - first:
+      213: 1782038506696220514
+    second: ReversedLilSpaceGuy_25
+  - first:
+      213: 8826912205562384555
+    second: ReversedLilSpaceGuy_26
+  - first:
+      213: -5157461334134406112
+    second: ReversedLilSpaceGuy_27
+  - first:
+      213: -6885091695180161482
+    second: ReversedLilSpaceGuy_28
+  - first:
+      213: -8120028886016002660
+    second: ReversedLilSpaceGuy_29
+  - first:
+      213: 5078906591192403155
+    second: ReversedLilSpaceGuy_30
+  - first:
+      213: 124625190361606397
+    second: ReversedLilSpaceGuy_31
+  - first:
+      213: -6167603579167059746
+    second: ReversedLilSpaceGuy_32
+  - first:
+      213: 2526601442989436455
+    second: ReversedLilSpaceGuy_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 48
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ceac97d9f65f70800000000000000
+      internalID: 9175795995255948362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ff8a285aa0abf30800000000000000
+      internalID: 4591994476035637019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 48
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11301f05f218218f0800000000000000
+      internalID: -571252162501213423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 48
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dcd4fd4c610ad40800000000000000
+      internalID: 5593495772009975187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 33
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2907da4010eafc310800000000000000
+      internalID: 1427550926296412306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 34
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5b68406e59ad2a0800000000000000
+      internalID: -6711887479491349063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8445f946c332e70800000000000000
+      internalID: 9089174875831290017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29234ef4f79f3b30800000000000000
+      internalID: 4269298050264148268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a62a2b814119e0800000000000000
+      internalID: -1652467522304825455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd4f34d3156c65d0800000000000000
+      internalID: -3067966110306447879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 32
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927a8c7ed420268a0800000000000000
+      internalID: -6313481193995589847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 32
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f48aad5bca4aed0800000000000000
+      internalID: -2403606404051480773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 34
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddce177a49fe7e0b0800000000000000
+      internalID: -5699323381670613795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 33
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e9c596ef1f01d30800000000000000
+      internalID: 4400282910932639338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 33
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fed10b843b335050800000000000000
+      internalID: 5788035042957713144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 32
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81546ed330e049770800000000000000
+      internalID: 8616527394152793368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 32
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac604c92de1b4b110800000000000000
+      internalID: 1275840226618771146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 32
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbf4a32bd05b7b90800000000000000
+      internalID: -7243106673569236018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667e331f6e4e272d0800000000000000
+      internalID: -3282309497859348634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 16
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ec27e756bf575d0800000000000000
+      internalID: -3065267558024032737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 17
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c24781793527670800000000000000
+      internalID: 8534976152235944962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 17
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87de4c55d5671b20800000000000000
+      internalID: 3105062435146356618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35007921e562d8120800000000000000
+      internalID: 2417630760448491603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 16
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a872caf5f02f9fcd0800000000000000
+      internalID: -2523719968320903286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d960caeff300a50800000000000000
+      internalID: 6485253826453872011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 16
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f12b784921bb810800000000000000
+      internalID: 1782038506696220514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 16
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba01b1c42ed7f7a70800000000000000
+      internalID: 8826912205562384555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_27
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0244b14fd340d68b0800000000000000
+      internalID: -5157461334134406112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e5bcef49d3370a0800000000000000
+      internalID: -6885091695180161482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95fa1bffbcdf4f80800000000000000
+      internalID: -8120028886016002660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_30
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcc96fa2a6eb7640800000000000000
+      internalID: 5078906591192403155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_31
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8a19943f1cab100800000000000000
+      internalID: 124625190361606397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0d15cd835486aa0800000000000000
+      internalID: -6167603579167059746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReversedLilSpaceGuy_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72eef5a30aa401320800000000000000
+      internalID: 2526601442989436455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ef156288424ec72488520ebd6d0df124
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ReversedLilSpaceGuy_0: 9175795995255948362
+      ReversedLilSpaceGuy_1: 4591994476035637019
+      ReversedLilSpaceGuy_10: -6313481193995589847
+      ReversedLilSpaceGuy_11: -2403606404051480773
+      ReversedLilSpaceGuy_12: -5699323381670613795
+      ReversedLilSpaceGuy_13: 4400282910932639338
+      ReversedLilSpaceGuy_14: 5788035042957713144
+      ReversedLilSpaceGuy_15: 8616527394152793368
+      ReversedLilSpaceGuy_16: 1275840226618771146
+      ReversedLilSpaceGuy_17: -7243106673569236018
+      ReversedLilSpaceGuy_18: -3282309497859348634
+      ReversedLilSpaceGuy_19: -3065267558024032737
+      ReversedLilSpaceGuy_2: -571252162501213423
+      ReversedLilSpaceGuy_20: 8534976152235944962
+      ReversedLilSpaceGuy_21: 3105062435146356618
+      ReversedLilSpaceGuy_22: 2417630760448491603
+      ReversedLilSpaceGuy_23: -2523719968320903286
+      ReversedLilSpaceGuy_24: 6485253826453872011
+      ReversedLilSpaceGuy_25: 1782038506696220514
+      ReversedLilSpaceGuy_26: 8826912205562384555
+      ReversedLilSpaceGuy_27: -5157461334134406112
+      ReversedLilSpaceGuy_28: -6885091695180161482
+      ReversedLilSpaceGuy_29: -8120028886016002660
+      ReversedLilSpaceGuy_3: 5593495772009975187
+      ReversedLilSpaceGuy_30: 5078906591192403155
+      ReversedLilSpaceGuy_31: 124625190361606397
+      ReversedLilSpaceGuy_32: -6167603579167059746
+      ReversedLilSpaceGuy_33: 2526601442989436455
+      ReversedLilSpaceGuy_4: 1427550926296412306
+      ReversedLilSpaceGuy_5: -6711887479491349063
+      ReversedLilSpaceGuy_6: 9089174875831290017
+      ReversedLilSpaceGuy_7: 4269298050264148268
+      ReversedLilSpaceGuy_8: -1652467522304825455
+      ReversedLilSpaceGuy_9: -3067966110306447879
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
