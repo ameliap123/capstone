@@ -7,13 +7,16 @@ public class DigManager : MonoBehaviour
 {
     [SerializeField] private Tilemap map;
     [SerializeField] private TileBase hole;
-	[SerializeField] private MapManager mapManager;
+    [SerializeField] private InventoryManager inventoryManager;
+    [SerializeField] private Item dirtItem;
+    [SerializeField] private MapManager mapManager;
 	RaycastHit2D hit;
 
 
     public void replaceTile(Vector3Int position)
     {
         map.SetTile(position, hole);
+        inventoryManager.AddItem(dirtItem, 1);
     }
 
     public void Update()
