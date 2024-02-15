@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,17 +6,22 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     private Dictionary<Item, int> inventory = new Dictionary<Item, int>();
+    public event Action<Item, int> OnInventoryUpdated;
 
     // Add item to the inventory
     public void AddItem(Item item, int quantity)
     {
         if (inventory.ContainsKey(item))
+        {
             inventory[item] += quantity;
+        }
         else
+        {
             inventory[item] = quantity;
-
+        }
+        OnInventoryUpdated?.Invoke(item, inventory[item]);
         // Update UI or perform any other necessary actions
-        Debug.Log(item.name + " added to inventory. Total: " + inventory[item]);
+        Debug.Log("Added " + quantity + " " + item.name + "(s) to inventory. Total: " + inventory[item]);
     }
 
     // Remove item from the inventory
@@ -35,6 +41,14 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.LogWarning("Item not found in inventory: " + item.name);
         }
+    }
+    public int GetItemQuantity(Item item)
+    {
+        if (inventory.ContainsKey(item))
+        {
+            return inventory[item];
+        }
+        return 0;
     }
 }
 
