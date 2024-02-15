@@ -29,7 +29,12 @@ public class MapManager : MonoBehaviour
 	}
     public bool GetCanDig(TileBase clickedTile)
     {
-        bool canDig = dataFromTiles[clickedTile].canDig;
-        return canDig;
+        // Check if the clickedTile is not null and exists in the dictionary
+        if (clickedTile != null && dataFromTiles.TryGetValue(clickedTile, out tileData tileData))
+        {
+            return tileData.canDig;
+        }
+        // If the tile is null or doesn't exist in the dictionary, return false
+        return false;
     }
 }
