@@ -10,6 +10,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public Image image;
 
     [HideInInspector] public Transform parentAfterDrag; //makes background behind
+    public Item item; // reference to the item
 
     //Drag item and drop item
     public void OnBeginDrag(PointerEventData eventData)
