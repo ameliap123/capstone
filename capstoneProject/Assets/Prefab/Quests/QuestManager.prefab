@@ -48,9 +48,9 @@ MonoBehaviour:
   - title: Apocalypse
     id: 1
     progress: 1
-    description: First Quest. Tutorial?
-    hint: 
-    congratulation: Good job!
+    description: Dig up Dirt
+    hint: Left click mouse on grass
+    congratulation: Good job! You did it!
     summary: 
     nextQuest: 0
     questObjective: Tutorial
