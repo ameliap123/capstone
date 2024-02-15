@@ -5,12 +5,21 @@ using UnityEngine.EventSystems;
 
 public class InventorySlot : MonoBehaviour, IDropHandler
 {
+    public InventoryManager inventoryManager;
+
+    private void Start()
+    {
+        inventoryManager = Object.FindFirstObjectByType<InventoryManager>();
+    }
+
     public void OnDrop(PointerEventData eventData)
     {
-        if(transform.childCount==0)
+        InventoryItem inventoryItem = eventData.pointerDrag.GetComponent<InventoryItem>();
+
+        if (inventoryItem != null && inventoryItem.item.stackable && transform.childCount == 0)
         {
-            InventoryItem inventoryItem = eventData.pointerDrag.GetComponent<InventoryItem>();
             inventoryItem.parentAfterDrag = transform;
+            inventoryManager.AddItem(inventoryItem.item, 1);
         }
     }
 }
