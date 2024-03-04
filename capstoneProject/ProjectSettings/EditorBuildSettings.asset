@@ -11,8 +11,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/LoreDrop.unity
+    guid: f03a99272c8b1ef4bb3db6f0c3c177ee
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 9c3eed35df08ead4298efa676916c168
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 71e5fefbc4e5020439d4bfe300a6b80f
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: d6d249bb8c27486469842158f68d689f
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: b0eb58146ec30f746b4648e48dd07348
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
