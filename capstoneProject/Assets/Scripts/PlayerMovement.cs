@@ -26,10 +26,10 @@ public class PlayerMovement : MonoBehaviour
         xdir = Input.GetAxisRaw("Horizontal") * speed;
         ydir = Input.GetAxisRaw("Vertical") * speed;
 
-        transform.position = new Vector2(
-            Mathf.Clamp(transform.position.x, -10.5f, 10.5f),
-            Mathf.Clamp(transform.position.y, -5f, 5f)
-        );
+       // transform.position = new Vector2(
+           // Mathf.Clamp(transform.position.x, -10.5f, 10.5f),
+           // Mathf.Clamp(transform.position.y, -5f, 5f)
+       // );
 
         //animator testing, updating animator on player movement
         animator.SetFloat("Horizontal", xdir);
