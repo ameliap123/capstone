@@ -36,9 +36,13 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", ydir);
     }
 
-    private void FixedUpdate()
+    public void FixedUpdate()
     {
         rb.velocity = new Vector2(xdir, ydir);
     }
-    
+
+    public Vector2 getPos()
+    {
+        return rb.velocity;
+    }
 }

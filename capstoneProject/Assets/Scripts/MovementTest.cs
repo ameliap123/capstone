@@ -4,7 +4,6 @@ using UnityEngine;
 public class MovementTest
 {
 	private PlayerMovement dummy;
-	
 	[SetUp]
 	public void Setup()
 	{
@@ -16,15 +15,8 @@ public class MovementTest
 	public void Movement_NoInput_ShouldHaveNoMovement()
 	{
 		//Arange
-		Vector2 position1 (
-			dummy.xdir,
-			dummy.ydir
-		);
-		Vector2 position2 (
-			dummy.xdir,
-			dummy.ydir
-		);
-		
+		Vector2 position1 = dummy.getPos();
+		Vector2 position2 = dummy.getPos();
 		//Act
 
 		//Assert
@@ -35,21 +27,14 @@ public class MovementTest
 	public void Movement_Input_ShouldHaveMovement()
 	{	
 		//Arrange
-		Vector2 position1 (
-			dummy.xdir,
-			dummy.ydir
-		);
+		Vector2 position1 = dummy.getPos();
 		
 		//Act
 		Input.ResetInputAxes();
 		dummy.FixedUpdate();
-		
-		Vector2 position2 (
-			dummy.xdir,
-			dummy.ydir
-		);
+		Vector2 position2 = dummy.getPos();
 
 		//Assert
-		Assert.NotEqual(position1, position2);
+		Assert.AreNotEqual(position1, position2);
 	}
 }
