@@ -31,7 +31,7 @@ public class WalkingSound : MonoBehaviour
         }
     }
 
-    void PlayFootstepSound()
+    public void PlayFootstepSound()
     {
         if (footstepSounds.Length == 0)
         {
@@ -44,7 +44,8 @@ public class WalkingSound : MonoBehaviour
         tempAudio.volume = footstepVolume;
 
         // Play the footstep sound using the temporary AudioSource
-        tempAudio.PlayOneShot(footstepSounds[currentFootstep]);
+        tempAudio.clip = footstepSounds[currentFootstep]; // Assign AudioClip to clip property
+        tempAudio.Play();
 
         // Destroy the temporary AudioSource after the sound has played
         Destroy(tempAudio, footstepSounds[currentFootstep].length);
