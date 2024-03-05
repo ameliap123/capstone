@@ -40,4 +40,5 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(xdir, ydir);
     }
+    
 }
